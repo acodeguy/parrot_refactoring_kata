@@ -9,8 +9,6 @@ class Parrot
 
   def speed
     case @type
-    when :african_parrot
-      return [0, base_speed - load_factor * @number_of_coconuts].max
     when :norwegian_blue_parrot
       return (@nailed) ? 0 : compute_base_speed_for_voltage(@voltage)
     end
