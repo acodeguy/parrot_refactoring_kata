@@ -1,10 +1,7 @@
 require_relative '../lib/parrot'
 
 describe "Parrots" do
-  it "gets speed of a European parrot" do
-    parrot = Parrot.new(:european_parrot, 0, 0, false)
-    expect(parrot.speed).to eq(12.0)
-  end
+  
 
   it "gets speed of an African parrot with one coconut" do
     parrot = Parrot.new(:african_parrot, 1, 0, false)
