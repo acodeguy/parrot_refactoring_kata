@@ -9,3 +9,10 @@ Refactor this code, take small steps, run the tests often. See how small and bea
 ## Approach
 After reading through the code, I could see that the Parrot class could be split into sub-classes as not all types of parrot used all parts of the code.
 
+## Code Quality
+
+Code has been linted with Rubocop and has zero offenses outstanding.
+
+## Testing
+
+Code has been test-driven with RSpec and has 100% coverage.
